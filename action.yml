@@ -1,0 +1,32 @@
+name: "AI Change Passport"
+description: "Generate a signed change passport for AI-assisted pull requests."
+author: "P-r-e-m-i-u-m"
+branding:
+  icon: "file-text"
+  color: "purple"
+inputs:
+  base:
+    description: "Base ref, branch, or SHA to compare from."
+    required: false
+  head:
+    description: "Head ref, branch, or SHA to compare to."
+    required: false
+  agent:
+    description: "Agent or assistant name, for example codex, copilot, claude, cursor, or unknown."
+    required: false
+    default: "unknown"
+  output:
+    description: "Path to write the JSON passport."
+    required: false
+    default: ".ai-passport/report.json"
+  comment:
+    description: "Post or update a sticky pull request comment."
+    required: false
+    default: "true"
+  token:
+    description: "GitHub token used for PR comments."
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: "node20"
+  main: "dist/index.js"
