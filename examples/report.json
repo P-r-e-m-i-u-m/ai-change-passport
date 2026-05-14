@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "0.1",
+  "generatedAt": "2026-05-14T15:57:08.000Z",
+  "repository": "P-r-e-m-i-u-m/example-repo",
+  "base": "origin/main",
+  "head": "HEAD",
+  "agent": "codex",
+  "summary": {
+    "risk": "high",
+    "score": 72,
+    "changedFiles": 12,
+    "additions": 410,
+    "deletions": 95,
+    "dependencyChanges": true,
+    "workflowChanges": true,
+    "testsChanged": false,
+    "humanApprovalRequired": true
+  },
+  "sensitiveTouches": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "reason": "CI/CD workflow behavior changed",
+      "severity": "high"
+    },
+    {
+      "path": "src/auth/session.ts",
+      "reason": "authentication or security-sensitive code changed",
+      "severity": "high"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 6
+    },
+    {
+      "path": "src/auth/session.ts",
+      "status": "modified",
+      "additions": 120,
+      "deletions": 34
+    }
+  ],
+  "recommendations": [
+    "Review the generated passport before merge and confirm the changed scope matches the PR intent.",
+    "Request focused human review for every sensitive file listed in the passport.",
+    "Review dependency names, lockfile changes, licenses, and vulnerability impact.",
+    "Confirm existing tests cover the changed behavior or ask for targeted tests.",
+    "Review workflow permissions, secrets usage, third-party actions, and deployment triggers.",
+    "Require explicit maintainer approval before merging."
+  ],
+  "signature": {
+    "algorithm": "sha256",
+    "value": "8c7d4f1d8f3d0b3c7e0a9c9c761d924b2a1a4c6d7076e9f771d1a5e4d3d4e42a"
+  }
+}

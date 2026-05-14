@@ -1,5 +1,9 @@
 # AI Change Passport
 
+[![CI](https://github.com/P-r-e-m-i-u-m/ai-change-passport/actions/workflows/ci.yml/badge.svg)](https://github.com/P-r-e-m-i-u-m/ai-change-passport/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/P-r-e-m-i-u-m/ai-change-passport)](https://github.com/P-r-e-m-i-u-m/ai-change-passport/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 AI Change Passport creates a verifiable record for AI-assisted pull requests.
 
 It answers the question reviewers, maintainers, and security teams are starting to ask:
@@ -22,6 +26,8 @@ That speed is useful, but it creates a review gap:
 AI Change Passport is a small, GitHub-native way to create that record.
 
 Think of it as an **SBOM-style passport for AI-assisted code changes**.
+
+![AI Change Passport demo report](docs/assets/demo-report.svg)
 
 ## What It Generates
 
@@ -101,6 +107,13 @@ jobs:
           agent: codex
           comment: true
 ```
+
+## Example Artifacts
+
+- [Example JSON passport](examples/report.json)
+- [Example PR comment](docs/EXAMPLE_REPORT.md)
+- [Schema specification](docs/SPEC.md)
+- [Launch kit](docs/LAUNCH.md)
 
 ## What It Detects
 

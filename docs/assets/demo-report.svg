@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#0f172a"/>
+  <rect x="56" y="48" width="1088" height="624" rx="18" fill="#ffffff"/>
+  <rect x="56" y="48" width="1088" height="80" rx="18" fill="#111827"/>
+  <text x="96" y="98" fill="#f9fafb" font-family="Arial, sans-serif" font-size="30" font-weight="700">AI Change Passport</text>
+  <text x="932" y="96" fill="#fca5a5" font-family="Arial, sans-serif" font-size="22" font-weight="700">HIGH 72/100</text>
+
+  <text x="96" y="174" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">Pull Request Summary</text>
+  <rect x="96" y="200" width="1008" height="92" rx="10" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="126" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Agent</text>
+  <text x="126" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">codex</text>
+  <text x="286" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Files</text>
+  <text x="286" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">12</text>
+  <text x="426" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Dependencies</text>
+  <text x="426" y="268" fill="#b45309" font-family="Arial, sans-serif" font-size="22" font-weight="700">yes</text>
+  <text x="626" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Workflows</text>
+  <text x="626" y="268" fill="#b45309" font-family="Arial, sans-serif" font-size="22" font-weight="700">yes</text>
+  <text x="806" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Tests</text>
+  <text x="806" y="268" fill="#dc2626" font-family="Arial, sans-serif" font-size="22" font-weight="700">no</text>
+  <text x="936" y="238" fill="#374151" font-family="Arial, sans-serif" font-size="18">Approval</text>
+  <text x="936" y="268" fill="#dc2626" font-family="Arial, sans-serif" font-size="22" font-weight="700">required</text>
+
+  <text x="96" y="348" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">Sensitive Areas</text>
+  <rect x="96" y="374" width="1008" height="132" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="126" y="414" fill="#9a3412" font-family="Arial, sans-serif" font-size="18" font-weight="700">HIGH</text>
+  <text x="230" y="414" fill="#111827" font-family="Arial, sans-serif" font-size="18" font-weight="700">.github/workflows/deploy.yml</text>
+  <text x="620" y="414" fill="#374151" font-family="Arial, sans-serif" font-size="18">CI/CD workflow behavior changed</text>
+  <line x1="126" y1="444" x2="1074" y2="444" stroke="#fed7aa"/>
+  <text x="126" y="482" fill="#9a3412" font-family="Arial, sans-serif" font-size="18" font-weight="700">HIGH</text>
+  <text x="230" y="482" fill="#111827" font-family="Arial, sans-serif" font-size="18" font-weight="700">src/auth/session.ts</text>
+  <text x="620" y="482" fill="#374151" font-family="Arial, sans-serif" font-size="18">Authentication-sensitive code changed</text>
+
+  <text x="96" y="558" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">Review Guidance</text>
+  <text x="126" y="596" fill="#374151" font-family="Arial, sans-serif" font-size="18">Require focused human review for sensitive files, dependency changes, workflow permissions, and missing tests.</text>
+  <text x="126" y="632" fill="#6b7280" font-family="Arial, sans-serif" font-size="16">Signature: sha256:8c7d...e42a</text>
+</svg>
