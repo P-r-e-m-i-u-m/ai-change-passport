@@ -115,6 +115,13 @@ jobs:
 - [Schema specification](docs/SPEC.md)
 - [Launch kit](docs/LAUNCH.md)
 
+## Used In
+
+AI Change Passport is enabled on these projects:
+
+- [AI PR Reviewer Guard](https://github.com/P-r-e-m-i-u-m/ai-pr-reviewer-guard)
+- [Workflow Locksmith](https://github.com/P-r-e-m-i-u-m/workflow-locksmith)
+
 ## What It Detects
 
 AI Change Passport reviews the diff metadata and flags:
