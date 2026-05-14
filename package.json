@@ -9,12 +9,13 @@
   "main": "dist/index.js",
   "files": [
     "dist",
+    "action-dist",
     "action.yml",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && ncc build dist/index.js -o action-dist --source-map",
     "check": "npm run build && npm test",
     "test": "node --test dist/*.test.js",
     "prepare": "npm run build"
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "@vercel/ncc": "^0.38.4",
     "typescript": "^5.7.2"
   },
   "overrides": {
